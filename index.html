@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  
+    <title>Retro Quiz Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+
+    <div class = "container-fluid">
+
+      <div class = "row" id = "header_row">
+        <div class="col-sm-12 col-md-12" id= "header">
+          Retro Quiz Game
+        </div>
+      </div>
+      
+      <div class = "row" id = "middle_row">
+        <div class= "col-sm-12 col-md-3" id= "left"></div>
+
+        <div class= "col-sm-12 col-md-6" id = "middle">
+
+          <p id = "introduction">
+            Dear teacher,<br>
+            Upload the json file that contains your quiz in the format as shown below.<br>
+            If your quiz is more than 9 questions it' ll become a Quiz Game!
+          </p>
+
+          <button id = "show_format_btn" class = "NavButtons" onclick = "ShowFormatClicked()">Show format</button>
+
+          <img id = "json_format" src = "json_format.png" style = "display: none">
+
+          <label class="custom-file-upload" id = "custom-file-upload">
+            <input type = "file" id= "selectFile" value = "Upload" /><br />
+            Choose file
+          </label>
+         
+  
+          <button id = "upload" class = "NavButtons">Upload and Start</button>
+  
+        </div> 
+
+        <div class= "col-sm-12 col-md-3" id= "right"></div>
+      </div>
+      
+      <div class = "row" id = "footer_row">
+        <div class = "col-sm-12 col-md-12" id = "footer_row"></div>
+      </div>
+      
+    
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="quiz.js"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </body>
+
+</html> 

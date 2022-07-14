@@ -1,0 +1,72 @@
+Reporting the basics about the Retro Game Quiz.
+
+Depending on the number of questions of the json uploaded, the game made has differences.
+
+< 10 questions
+	It's a simple quiz.
+
+>= 10 questions
+	It becomes a game.
+
+Basic game features:
+	- You are given 1 stock (life, basically a wrong answer permitted) for evey 10 of the total questions of the quiz uploaded.
+	- You can pick one of 3 different heros, each with a unique hero power (You'll get informed about the details in game).
+	- Depending on the number of questions a level up system* has been put in play.
+	- Each time you level up (survive the number of questions required) you unlock your reward wich is an old-school arcade game.
+		You can either play it for a limited amount of time, or continue the Quiz.
+
+In case of death (all stocks lost) you can either play one (or all of them) of the unlocked games for as much as you want, or restart the quiz to try and unlock them all.
+
+If you survive all questions, you have unlocked all the games and u can play whichever one you want for as much as you want or restart the quiz and go for a better score.
+
+
+*again, depending on the number of questions:
+
+<= 20 questions
+	4 levels:
+		Newbie
+		Skilled
+		Intermediate
+		Expert
+
+	3 games to unlock
+
+> 20 questions
+	6 levels:
+		Newbie
+		Rookie
+		Skilled
+		Intermediate
+		Advanced
+		Expert
+
+Also, in folder "Quizzes" there are 3 different json files to test all of the cases.
+
+For answers 0 to 3 the correct ones in the first 26 (covering all test files) questions are:
+
+2
+3
+2
+1
+2
+2
+0
+3
+2
+2
+0
+2
+3
+3
+0
+2
+1
+0
+1
+3
+3
+3
+0
+1
+1
+2

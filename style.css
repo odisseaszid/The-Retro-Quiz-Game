@@ -1,0 +1,263 @@
+body {
+  background-image: url('back_4.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  color: #d3d3d3;
+  font-family: monospace;
+  font-size: x-large;
+  text-align: center;
+}
+
+#stocks_label {
+  margin-bottom: 5%;
+}
+
+#json_format {
+  margin: 1% auto;
+  display: block;
+}
+
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  color: #d3d3d3;
+  font-size: x-large;
+  background-image: linear-gradient(#091833,#133e7c);
+  border-radius: 10px;
+  border: 3px solid #0abdc6;
+  padding: 1%;
+  width: 30%;
+  margin: 1% auto;
+  cursor: pointer;
+  display: block;
+}
+
+.custom-file-upload:hover {
+  background-image: linear-gradient(#091833,#ff2975);
+  border: 3px solid#ff901f;
+}
+
+#upload {
+  margin:10px 0;
+  margin: 1% auto;
+}
+
+#header {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 30px;
+}
+
+#img_row {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.HeroTxts {
+  background-image: linear-gradient(#133e7c,#091833);
+  border-radius: 10px;
+  border: 3px solid #0abdc6;
+  padding: 1%;
+}
+
+#txt_row {
+  margin-top: 1%;
+  text-align: justify;
+}
+
+
+#cat_img, #Cat, #cat_txt {
+  float: left;
+  width: 32%;
+  margin-left: 1%;
+}
+
+#fox_img, #Fox, #fox_txt {
+  float: left;
+  width: 32%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#owl_img, #Owl, #owl_txt {
+  float: right;
+  width: 32%;
+  margin-right: 1%;
+}
+
+
+
+#timer {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+
+.HeroButtons {
+  color: #d3d3d3;
+  font-size: x-large;
+  background-image: linear-gradient(#091833,#133e7c);
+  border-radius: 10px;
+  border: 3px solid #0abdc6;
+}
+
+.HeroButtons:hover {
+  background-image: linear-gradient(#091833,#ff2975);
+  border: 3px solid#ff901f;
+}
+
+.HeroButtons:focus {
+  background-image: linear-gradient(#091833,#ff2975);
+  border: 3px solid#ff901f;
+}
+
+
+/*-----------*/
+
+
+#progress_label {
+  margin: 1%;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+#stocks_label {
+  margin-top: 1%;
+}
+
+.StockImages {
+  margin: 1%;
+}
+
+
+#question {
+  font-size: 35px;
+  font-weight: bold;
+  background-image: linear-gradient(#ff2975,#091833);
+  border-radius: 10px;
+  border: 3px solid #ff901f;
+  padding: 1%;
+  margin: 1%;
+  display: block;
+  width: 100%;
+}
+
+.answers {
+  color: #d3d3d3;
+  font-size: larger;
+  background-image: linear-gradient(#091833,#133e7c);
+  border-radius: 10px;
+  border: 3px solid #0abdc6;
+  padding: 1%;
+  margin: 1%;
+  display: block;
+  width: 100%;
+}
+
+.answers:hover {
+  background-image: linear-gradient(#091833,#ff2975);
+  border: 3px solid#ff901f;
+}
+
+.answers:focus {
+  background-image: linear-gradient(#091833,#ff2975);
+  border: 3px solid#ff901f;
+}
+
+#confirm_answer {
+  color: #d3d3d3;
+  font-size: x-large;
+  background-image: linear-gradient(#133e7c,#091833);
+  border: 3px solid #0abdc6;
+  border-radius: 10px;
+  padding: 1%;
+  margin: 1%;
+  width: 50%;
+}
+
+#confirm_hero {
+  color: #d3d3d3;
+  font-size: x-large;
+  background-image: linear-gradient(#133e7c,#091833);
+  border: 3px solid #0abdc6;
+  border-radius: 10px;
+  margin: 1%;
+  width: 32%;
+}
+
+#confirm_hero:hover {
+  background-image: linear-gradient(#ff2975,#091833);
+  border: 3px solid #ff901f;
+}
+
+#confirm_hero:disabled {
+  background-image: linear-gradient(black,#d3d3d3);
+  border: 3px solid #d3d3d3;
+}
+
+#confirm_answer:hover {
+  background-image: linear-gradient(#ff2975,#091833);
+  border: 3px solid #ff901f;
+}
+
+#confirm_answer:disabled {
+  background-image: linear-gradient(black,#d3d3d3);
+  border: 3px solid #d3d3d3;
+}
+
+
+
+#hp {
+  color: #d3d3d3;
+  font-size: xx-large;
+  font-weight: bold;
+  background-image: linear-gradient(#133e7c,#091833);
+  border: 3px solid #0abdc6;
+  border-radius: 10px;
+  padding: 1%;
+  margin: 1%;
+  width: 50%;
+}
+
+#hp:hover {
+  background-image: linear-gradient(#ff2975,#091833);
+  border: 3px solid #ff901f;
+}
+
+#hp:disabled {
+  background-image: linear-gradient(black,#d3d3d3);
+  border: 3px solid #d3d3d3;
+}
+
+.NavButtons {
+  color: #d3d3d3;
+  font-size: x-large;
+  background-image: linear-gradient(#091833,#133e7c);
+  border-radius: 10px;
+  border: 3px solid #0abdc6;
+  padding: 1%;
+  margin: 1% auto;
+  display: block;
+}
+
+.NavButtons:hover {
+  background-image: linear-gradient(#091833,#ff2975);
+  border: 3px solid#ff901f;
+}
+
+#NavButtons:disabled {
+  background-image: linear-gradient(black,#d3d3d3);
+  border: 3px solid #d3d3d3;
+}
+
+#game {
+  margin: 0 auto;
+}
