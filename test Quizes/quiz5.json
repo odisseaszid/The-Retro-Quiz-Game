@@ -1,0 +1,54 @@
+{
+    "questions" : [
+        {
+            "question" : "Tu aimes le chocolat?",
+            "answers" : [
+                "Oui, j'aimes le chocolat.",
+                "Oui, tu aimes le chocolat.",
+                "Oui, j'aime le chocolat.",
+                "Oui, j'aimer le chocolat."
+            ],
+            "correct" : 2
+        },
+        {
+            "question" : "Vous avez quel âge?",
+            "answers" : [
+                "Nous avez 13 ans.",
+                "Nous sommes 13 ans.",
+                "Vous avons 13 ans.",
+                "Nous avons 13 ans."
+            ],
+            "correct" : 3
+        },
+        {
+            "question" : "Vous êtes espagnols",
+            "answers" : [
+                "Oui, vous êtes espagnols.",
+                "Oui, vous êtes espagnol.",
+                "Oui, nous sommes espagnols.",
+                "Non, nous sommes espagnols."
+            ],
+            "correct" : 2
+        },
+        {
+            "question" : "Tu es français?",
+            "answers" : [
+                "Oui, tu es français.",
+                "Oui, je suis français.",
+                "Oui, j'es français.",
+                "Oui, nous sommes français."
+            ],
+            "correct" : 1
+        },
+        {
+            "question" : "Qui est-ce??",
+            "answers" : [
+                "C'est la Tour Eiffel.",
+                "C'est un livre.",
+                "C'est Marie.",
+                "Je suis joueur de football."
+            ],
+            "correct" : 2
+        }
+    ]
+}

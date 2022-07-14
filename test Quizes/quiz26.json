@@ -1,0 +1,264 @@
+{
+    "questions" : [
+        {
+            "question" : "Tu aimes le chocolat?",
+            "answers" : [
+                "Oui, j'aimes le chocolat.",
+                "Oui, tu aimes le chocolat.",
+                "Oui, j'aime le chocolat.",
+                "Oui, j'aimer le chocolat."
+            ],
+            "correct" : 2
+        },
+        {
+            "question" : "Vous avez quel âge?",
+            "answers" : [
+                "Nous avez 13 ans.",
+                "Nous sommes 13 ans.",
+                "Vous avons 13 ans.",
+                "Nous avons 13 ans."
+            ],
+            "correct" : 3
+        },
+        {
+            "question" : "Vous êtes espagnols",
+            "answers" : [
+                "Oui, vous êtes espagnols.",
+                "Oui, vous êtes espagnol.",
+                "Oui, nous sommes espagnols.",
+                "Non, nous sommes espagnols."
+            ],
+            "correct" : 2
+        },
+        {
+            "question" : "Tu es français?",
+            "answers" : [
+                "Oui, tu es français.",
+                "Oui, je suis français.",
+                "Oui, j'es français.",
+                "Oui, nous sommes français."
+            ],
+            "correct" : 1
+        },
+        {
+            "question" : "Qui est-ce??",
+            "answers" : [
+                "C'est la Tour Eiffel.",
+                "C'est un livre.",
+                "C'est Marie.",
+                "Je suis joueur de football."
+            ],
+            "correct" : 2
+        },
+        {
+          "question": "Qu'est-ce que c'est?",
+		  "answers": [
+            "C'est Vanessa Paradis.",
+            "C'est un joueur de football.",
+            "C'est la Tour Eiffel.",
+            "C'est moi."
+          ],
+          "correct": 2
+        },
+        {
+          "correct": 0,
+          "answers": [
+            "vingt",
+            "vinght",
+            "ving",
+            "vignt"
+          ],
+          "question": "20"
+        },
+        {
+          "correct": 3,
+          "answers": [
+            "vedredi",
+            "venerdi",
+            "verdedi",
+            "vendredi"
+          ],
+          "question": "Παρασκευή"
+        },
+        {
+          "correct": 2,
+          "answers": [
+            "dimance",
+            "dimache",
+            "dimanche",
+            "dimunche"
+          ],
+          "question": "Κυριακή"
+        },
+        {
+          "correct": 2,
+          "answers": [
+            "mecredi",
+            "mercedi",
+            "mercredi",
+            "mercerdi"
+          ],
+          "question": "Τετάρτη"
+        },
+        {
+          "correct": 0,
+          "answers": [
+            "un cahier vert",
+            "une cahier verte",
+            "un cahier jaune",
+            "un jaune cahier"
+          ],
+          "question": "Ένα πράσινο τετράδιο"
+        },
+        {
+          "correct": 2,
+          "answers": [
+            "une maron gomme",
+            "un marron gomme",
+            "une gomme marron",
+            "une gomme marrone"
+          ],
+          "question": "Μία καφέ γόμα"
+        },
+        {
+          "correct": 3,
+          "answers": [
+            "Les bottes blanches",
+            "Des bottes blanches",
+            "Les bottes noirs",
+            "Des bottes noires"
+          ],
+          "question": "Μαύρες μπότες"
+        },
+        {
+          "correct": 3,
+          "answers": [
+            "Oui, nous mangons des fruits verts.",
+            "Oui, nous mangeons des fruits vertes.",
+            "Oui, vous mangez des fruits vertes.",
+            "Oui, nous mangeons des fruits verts."
+          ],
+          "question": "Vous mangez des fruits?"
+        },
+        {
+          "correct": 0,
+          "answers": [
+            "Quelle est ta couleur préférée?",
+            "Quelle est ta couleur préferée?",
+            "Quelle est ton couleur préférée?",
+            "Quel est ton couleur préféré?"
+          ],
+          "question": "Ποιο είναι το αγαπημένο σου χρώμα?"
+        },
+        {
+          "question": "-Salut! La place est libre?",
+          "answers": [
+            "-Oui, la place e libre.",
+            "-Oui, est libre.",
+            "-Oui, bien sûr.",
+            "-Oui, bien sûre."
+          ],
+          "correct": 2
+        },
+        {
+          "question": "-Comment tu t'appelles?",
+          "answers": [
+            "-Tu t'appelles Lucas.",
+            "-Moi, c'est Lucas.",
+            "-C'est Lucas.",
+            "-M'appelle Lucas."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "- Tu viens d'où?",
+          "answers": [
+            "- Je suis grec, je viens d'Athènes.",
+            "- Je viens grec, d'Athènes.",
+            "- Grec, je suis d'Athènes.",
+            "- Je suis d' Αthènes, Grèc."
+          ],
+          "correct": 0
+        },
+        {
+          "question": "Tu es en quelle classe?",
+          "answers": [
+            "- Tu es sixième.",
+            "- Je suis en sixième.",
+            "- Nous sommes sixiême.",
+            "- Je suis sixième."
+          ],
+          "correct": 1
+        },
+        {
+          "question": "- D'où vient elle?",
+          "answers": [
+            "- Elle vient Allemagne.",
+            "- Elle vient Allemande.",
+            "- Elle vient Allemand.",
+            "- Elle vient d'Allemagne."
+          ],
+          "correct": 3
+        },
+        {
+          "correct": 3,
+          "answers": [
+            "Elle est albanaise. Elle parle albanaise.",
+            "Elle est albanais. Elles parle albanais.",
+            "Elle est albanais. Elle parle l'albanais.",
+            "Elle est albanaise. Elle parle l'albanais."
+          ],
+          "question": "Elle vient d'Albanie."
+        },
+        {
+          "correct": 3,
+          "answers": [
+            "cinqante-huit",
+            "quarante-huit",
+            "qarante-huit",
+            "cinquante-huit"
+          ],
+          "question": "58"
+        },
+        {
+          "correct": 0,
+          "answers": [
+            "neuvième",
+            "neufième",
+            "neuffième",
+            "novième"
+          ],
+          "question": "9ème"
+        },
+        {
+          "correct": 1,
+          "answers": [
+            "cherches",
+            "cherche",
+            "chèrche",
+            "chercher"
+          ],
+          "question": "Je.......... un correspondant français"
+        },
+        {
+          "correct": 1,
+          "answers": [
+            "en",
+            "au",
+            "du",
+            "de"
+          ],
+          "question": "Il habite....... Canada."
+        },
+        {
+          "correct": 2,
+          "answers": [
+            "en",
+            "à",
+            "des",
+            "d'"
+          ],
+          "question": "Nous venons....... États-Unis"
+        }
+    ]
+}
